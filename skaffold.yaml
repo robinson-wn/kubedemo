@@ -3,6 +3,8 @@ kind: Config
 metadata:
   name: kubedemo
 build:
+  tagPolicy:
+    sha256: { }
   artifacts:
   - image: "k8sparkdemo"
     docker:
