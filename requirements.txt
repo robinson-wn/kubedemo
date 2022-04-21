@@ -1,0 +1,11 @@
+flask
+ipywidgets
+ipython
+tornado
+notebook
+numpy
+pandas
+wget
+# Current version will be 3.2.1, but conda fails if you specify the version
+pyspark
+matplotlib

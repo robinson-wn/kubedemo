@@ -1,0 +1,13 @@
+apiVersion: skaffold/v2beta25
+kind: Config
+metadata:
+  name: kubedemo
+build:
+  artifacts:
+  - image: "k8sparkdemo"
+    docker:
+      dockerfile: Dockerfile
+deploy:
+  kubectl:
+    manifests:
+    - resources/jupyter.yaml
